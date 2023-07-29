@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
 import LittleLemonHeader from './components/LittleLemonHeader';
+import LittleLemonFooter from './components/LittleLemonFooter';
 
 export default function App() {
     return (
@@ -12,6 +13,7 @@ export default function App() {
             }}>
             <LittleLemonHeader />
         </View>
+        <LittleLemonFooter />
         </SafeAreaView>
     );
 
